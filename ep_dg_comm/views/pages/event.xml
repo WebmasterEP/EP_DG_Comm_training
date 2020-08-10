@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="ep_dg_comm_event_option" customize_show="True" name="EP DG COMM option" inherit_id="website_event.event_description_full">
+        <xpath expr="//span[@itemprop='description']" position="before">
+            <div class="container mb-5 mt-2">
+                <h1>A special option</h1>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

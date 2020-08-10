@@ -1,0 +1,14 @@
+.mixin {
+    @include simple_mixin;
+}
+
+a {
+    color: $secondary;
+}
+
+.epdb-comm-h1 {
+    canvas {
+        position: relative;
+        top: 2*$spacer;
+    }
+}

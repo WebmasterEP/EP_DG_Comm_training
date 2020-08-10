@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="qweb_route" model="ir.ui.view">
+        <field name="name">Qweb Route Examples</field>
+        <field name="type">qweb</field>
+        <field name="key">ep_dg_comm.qweb_route</field>
+        <field name="arch" type="xml">
+            <t name="Qweb Route Example" t-name="ep_dg_comm.qweb_route">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <div class="container">
+                            <h1>Route Page</h1>
+                            <ul>
+                                <t t-foreach="variable" t-as="var" t-if="variable">
+                                    <li><t t-esc="var"/></li>
+                                </t>
+                            </ul>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+</odoo>

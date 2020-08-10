@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="menu_qweb_logic" model="website.menu">
+            <field name="name">Qweb Logic</field>
+            <field name="url">/qweb_logic_example</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">0</field>
+        </record>
+
+        <record id="menu_qweb_route_page" model="website.menu">
+            <field name="name">Qweb Route Page</field>
+            <field name="url">/route_page</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">1</field>
+        </record>
+
+    </data>
+</odoo>

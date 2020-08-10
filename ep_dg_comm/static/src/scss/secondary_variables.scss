@@ -1,0 +1,23 @@
+$a-variable-red: red;
+$a-variable-white: white;
+@mixin simple_mixin {
+    background-color: $a-variable-red;
+    border: 1px solid $a-variable-white;
+    padding: $spacer $spacer*2;
+    color: $a-variable-white;
+    animation-duration: 3s;
+    animation-name: colors;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes colors {
+    from {
+        background-color: $a-variable-red;
+        color: $a-variable-white;
+    }
+
+    to {
+        background-color: $a-variable-white;
+        color: $a-variable-red;
+    }
+}
