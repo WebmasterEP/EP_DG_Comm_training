@@ -66,17 +66,16 @@
                                 <t t-set="events" t-value="request.env['event.event'].search([],order='id')"/>
                                 <p>
                                     <code>Recordset:</code><t t-raw="events"/></p>
-                                <h5>All Blog posts</h5>
+                                <h5>All Events</h5>
                                 <ul>
                                     <li t-foreach="events" t-as="event">
                                         <a t-att-href="'/event/%i' %(event.id)" t-att-alt="event.name"><t t-esc="event.name"/></a>
-                                        <!-- <p><t t-esc="blog_post.subtitle"/></p> -->
                                     </li>
                                 </ul>
                             </section>
                             <section>
                                 <h5>Readable as admin only</h5>
-                                <t t-set="res_partners" t-value="request.env['res.partner'].sudo().search([])"/>
+                                <t t-set="res_partners" t-value="request.env['res.partner'].search([])"/>
                                 <!-- <t t-set="res_partners" t-value="request.env['res.partner'].sudo().search([])"/> BUT CAREFULL :) -->
                                 <ul>
                                     <t t-foreach="res_partners" t-as="res_partner">
