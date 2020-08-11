@@ -6,6 +6,9 @@ Training EP DG Comm
 -- Odoo documentation:
 https://www.odoo.com/documentation/13.0/
 
+-- Testing runbot odoo
+https://runbot.odoo.com/ (login/password : admin/admin)
+
 -- Theming bootstrap 4
 https://getbootstrap.com/docs/4.0/getting-started/theming/
 
@@ -17,3 +20,10 @@ https://developer.mozilla.org/fr/docs/Web/XPath
 
 -- Scss
 https://sass-lang.com/documentation
+
+
+-- command to launch Odoo :
+../odoo/odoo-bin  --addons-path=../odoo/addons/,../enterprise/,./ --db-filter=dbcommwebsite -d dbcommwebsite --dev=xml  -u ep_dg_website
+
+-- traduction odoo (module)
+https://www.odoo.com/documentation/13.0/reference/translations.html#exporting-translatable-term

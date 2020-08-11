@@ -22,6 +22,7 @@
         'views/assets.xml',
 
         # layout
+        'views/layout.xml',
 
         #backend
 

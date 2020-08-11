@@ -10,7 +10,6 @@ odoo.define('ep_dg_comm.threeDTitle', function(require) {
             var scene = new THREE.Scene();
             var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
             var container = this.$el.after()[0];
-            debugger
             var renderer = new THREE.WebGLRenderer({ alpha: true });
             renderer.setSize(100, 100);
             container.appendChild(renderer.domElement);

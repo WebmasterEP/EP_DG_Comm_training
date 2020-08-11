@@ -16,6 +16,11 @@
                         <div class="row">
                             <h1 class="epdb-comm-h1">A title with some options</h1>
                         </div>
+
+                        <div class="epdb-comm-h1">
+                            After there is a cube too.
+                        </div>
+            
                     </div>
                 </div>
             </xpath>
