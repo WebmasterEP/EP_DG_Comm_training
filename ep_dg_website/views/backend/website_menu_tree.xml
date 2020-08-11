@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="menu_tree" model="ir.ui.view">
+        <field name="name">Menu Tree</field>
+        <field name="type">qweb</field>
+        <field name="model">website.menu</field>
+        <field name="inherit_id" ref="website.menu_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='is_mega_menu']" position="after">
+                <field name="is_bottom_menu"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

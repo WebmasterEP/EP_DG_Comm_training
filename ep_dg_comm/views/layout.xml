@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="layout" inherit_id="web.frontend_layout">
+        <xpath expr="//main" position="before">
+            <div class="container">
+                <h1>Element on all pages</h1>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>
