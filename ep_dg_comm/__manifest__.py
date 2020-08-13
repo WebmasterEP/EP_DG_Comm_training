@@ -32,8 +32,11 @@
         'views/pages/route_page.xml',
         'views/pages/event.xml',
 
-        # generic views
+        # snippets
+        'views/snippets/snippets.xml',
+        'views/snippets/snippets_options.xml',
 
     ],
+
 
 }

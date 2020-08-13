@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="snippet_options" inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='layout_column']" position="before">
+            <div data-selector=".renderer-3d" data-js="container_3d">
+                <we-collapse-area>
+                    <we-toggler><i class="fa fa-fw fa-arrows"/>Rotation Speed</we-toggler>
+                    <we-collapse data-no-preview="true">
+                        <we-button data-select-count="2">Slow</we-button>
+                        <we-button data-select-count="5">Medium</we-button>
+                        <we-button data-select-count="10">Fast</we-button>
+                    </we-collapse>
+                </we-collapse-area>
+            </div>
+
+            <div data-selector="p,span,h1,h2,h3,h4,h5" data-js="ccFx">
+                <we-collapse-area>
+                    <we-toggler><i class="fa fa fa-font"/>Colors cycle</we-toggler>
+                    <we-collapse >
+                        <we-button data-select-class="s_cc_slow">Slow</we-button>
+                        <we-button data-select-class="s_cc_medium">Medium</we-button>
+                        <we-button data-select-class="s_cc_fast">Fast</we-button>
+                    </we-collapse>
+                </we-collapse-area>
+            </div>
+
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_container_3d" name="Container 3d">
+        <section class="pt-4 pb-4 container-3d">
+            <div class="container">
+                <div class="row">
+                    <div class="renderer-3d" data-speed="2"/>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="s_not_dynamic_snippet" name="Not real dync">
+        <section>
+            <div class="container">
+                <h3>Partners</h3>
+                <t t-set="partners" t-value="request.env['res.partner'].search([])"/>
+                <ul>
+                    <t t-foreach="partners" t-as="partner">
+                        <li t-esc="partner.name"/>
+                    </t>
+                </ul>
+            </div>
+        </section>
+    </template>
+
+    <template id="s_search_bar" name="Search Bar">
+        <section class="search-sec">
+    <div class="container">
+        <form action="#" method="post" novalidate="novalidate">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <input type="text" class="form-control search-slt" placeholder="Enter Pickup City"/>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <input type="text" class="form-control search-slt" placeholder="Enter Drop City"/>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Select Vehicle</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <button type="button" class="btn btn-danger wrn-btn">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+    </template>
+
+    <template id="snippets_3d" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_example" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-coffee"/>
+                    Ep Dg Comm
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="ep_dg_comm.s_container_3d" t-thumbnail="/ep_dg_comm/static/src/img/snippets/s_container_3d.png"/>
+                    <t t-snippet="ep_dg_comm.s_search_bar" t-thumbnail="/ep_dg_comm/static/src/img/snippets/s_search_bar.png"/>
+                    <t t-snippet="ep_dg_comm.s_not_dynamic_snippet" t-thumbnail="/ep_dg_comm/static/src/img/snippets/s_3column_menu.png"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
