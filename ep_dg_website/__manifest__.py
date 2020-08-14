@@ -24,8 +24,11 @@
         'views/backend/website_menu_tree.xml',
 
         # pages
+        'views/pages/events.xml',
 
-        # generic views
+        # snippets
+        'views/snippets/snippets.xml',
+        'views/snippets/snippets_options.xml',
 
     ],
 }

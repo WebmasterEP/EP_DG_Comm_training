@@ -6,6 +6,10 @@ Training EP DG Comm
 -- Odoo documentation:
 https://www.odoo.com/documentation/13.0/
 
+-- Qweb languag réf.
+https://www.odoo.com/documentation/13.0/reference/qweb.html
+
+
 -- Testing runbot odoo
 https://runbot.odoo.com/ (login/password : admin/admin)
 
