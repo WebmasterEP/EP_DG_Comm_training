@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_4_blocks" name="4 Blocks">
+        <section class="ep-dg-4-blocks">
+            <div class="container">
+
+                <div class="row reminder-block mt-5">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h4 class="d-flex flex-row align-items-center card-title">
+                                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                                        <path
+                                            d="M15.0829 0.744995L14.5856 2.06368H13.0939L14.2541 2.88785L13.7569 4.37137L14.9171 3.54719L16.0774 4.37137L15.5801 2.88785L16.7403 2.06368H15.2486L15.0829 0.744995ZM21.7127 2.55818L21.2155 3.87687H19.7238L20.884 4.86587L20.3867 6.34939L21.547 5.52522L22.7072 6.34939L22.2099 4.86587L23.3702 3.87687H21.8785L21.7127 2.55818ZM24.8619 10.6351L26.0221 9.81093L27.1823 10.6351L26.6851 9.31642L27.8453 8.49225H26.3536L25.8564 7.17357L25.3591 8.49225H23.8674L25.0276 9.48126L24.8619 10.6351ZM30 14.9208H28.5083L28.0111 13.6021L27.5138 14.9208H26.0221L27.1823 15.9098L26.6851 17.3933L27.8453 16.5692L29.0055 17.3933L28.8398 15.9098L30 14.9208ZM27.0166 21.3494L26.5193 20.0307L26.0221 21.3494H24.5304L25.6906 22.3384L25.1934 23.8219L26.3536 22.9977L27.5138 23.8219L27.0166 22.3384L28.1768 21.3494H27.0166ZM21.7127 26.2944L21.2155 24.9758L20.7182 26.2944H19.2265L20.3867 27.2835L19.8895 28.767L21.0497 27.9428L22.2099 28.767L21.7127 27.2835L22.8729 26.4593L21.7127 26.2944ZM15.4144 28.2725L14.9171 26.9538L14.4199 28.2725H12.9282L14.0884 29.2615L13.5912 30.745L14.7514 29.9208L15.9116 30.745L15.7459 29.0966L16.9061 28.1076L15.4144 28.2725ZM7.12708 6.18456L8.28729 5.36038L9.44752 6.18456L8.95028 4.70104L10.1105 3.71203H8.61879L8.12155 2.39335L7.62431 3.71203H6.1326L7.29282 4.70104L7.12708 6.18456ZM3.9779 7.00873L3.48067 8.32742H1.98895L3.14917 9.31642L2.65194 10.7999L3.81216 9.97577L4.97238 10.7999L4.64089 9.31642L5.80111 8.32742H4.3094L3.9779 7.00873ZM1.98895 16.4043L3.14917 17.2285L2.65194 15.9098L3.81216 14.9208H2.32044L1.82321 13.6021L1.49172 14.9208H0L1.16022 15.9098L0.662986 17.3933L1.98895 16.4043ZM3.81216 21.3494L3.31492 20.0307L2.81768 21.3494H1.32597L2.48619 22.3384L1.98895 23.8219L3.14917 22.9977L4.3094 23.8219L3.81216 22.3384L4.97238 21.3494H3.81216ZM9.11602 26.2944L8.61879 24.9758L8.12155 26.2944H6.62983L7.79006 27.1186L7.29282 28.6021L8.45304 27.778L9.61327 28.6021L9.11602 27.1186L10.2763 26.1296L9.11602 26.2944Z"
+                                            fill="#505153"/>
+                                        <path
+                                            d="M15.9141 19.0312C15.9141 19.25 15.9219 19.4375 15.9375 19.5938C15.9583 19.7448 15.987 19.8802 16.0234 20C16.1432 20.0312 16.2682 20.0521 16.3984 20.0625C16.5339 20.0677 16.6771 20.0703 16.8281 20.0703H17.5391V21.1484C17.0964 21.0911 16.6797 21.0521 16.2891 21.0312C15.8984 21.0104 15.5156 21 15.1406 21C14.7188 21 14.3073 21.013 13.9062 21.0391C13.5052 21.0651 13.0938 21.1016 12.6719 21.1484V20.0703H13.3672C13.5182 20.0703 13.6615 20.0677 13.7969 20.0625C13.9323 20.0573 14.0573 20.0365 14.1719 20C14.2083 19.8802 14.237 19.7448 14.2578 19.5938C14.2839 19.4375 14.2969 19.2578 14.2969 19.0547V11.2656C14.1979 11.1875 14.0885 11.1302 13.9688 11.0938C13.8542 11.0573 13.7135 11.0391 13.5469 11.0391C13.4792 11.0391 13.4062 11.0417 13.3281 11.0469C13.2552 11.0521 13.1771 11.0625 13.0938 11.0781L12.3516 11.2109L12.2031 10.4766C12.5104 10.3672 12.8125 10.2604 13.1094 10.1562C13.4062 10.0521 13.6927 9.96094 13.9688 9.88281C14.2448 9.79948 14.5052 9.73438 14.75 9.6875C14.9948 9.63542 15.2188 9.60938 15.4219 9.60938C15.5729 9.60938 15.6823 9.63281 15.75 9.67969C15.8177 9.72135 15.8724 9.77604 15.9141 9.84375V19.0312Z"
+                                            fill="#505153"/>
+                                    </svg>
+                                    <span class="ml-2">Don’t forget your ID card</span>
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                    ad minim veniam .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h4 class="d-flex flex-row align-items-center card-title">
+                                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                                        <path
+                                            d="M15.0829 0.744995L14.5856 2.06368H13.0939L14.2541 2.88785L13.7569 4.37137L14.9171 3.54719L16.0774 4.37137L15.5801 2.88785L16.7403 2.06368H15.2486L15.0829 0.744995ZM21.7127 2.55818L21.2155 3.87687H19.7238L20.884 4.86587L20.3867 6.34939L21.547 5.52522L22.7072 6.34939L22.2099 4.86587L23.3702 3.87687H21.8785L21.7127 2.55818ZM24.8619 10.6351L26.0221 9.81093L27.1823 10.6351L26.6851 9.31642L27.8453 8.49225H26.3536L25.8564 7.17357L25.3591 8.49225H23.8674L25.0276 9.48126L24.8619 10.6351ZM30 14.9208H28.5083L28.0111 13.6021L27.5138 14.9208H26.0221L27.1823 15.9098L26.6851 17.3933L27.8453 16.5692L29.0055 17.3933L28.8398 15.9098L30 14.9208ZM27.0166 21.3494L26.5193 20.0307L26.0221 21.3494H24.5304L25.6906 22.3384L25.1934 23.8219L26.3536 22.9977L27.5138 23.8219L27.0166 22.3384L28.1768 21.3494H27.0166ZM21.7127 26.2944L21.2155 24.9758L20.7182 26.2944H19.2265L20.3867 27.2835L19.8895 28.767L21.0497 27.9428L22.2099 28.767L21.7127 27.2835L22.8729 26.4593L21.7127 26.2944ZM15.4144 28.2725L14.9171 26.9538L14.4199 28.2725H12.9282L14.0884 29.2615L13.5912 30.745L14.7514 29.9208L15.9116 30.745L15.7459 29.0966L16.9061 28.1076L15.4144 28.2725ZM7.12708 6.18456L8.28729 5.36038L9.44752 6.18456L8.95028 4.70104L10.1105 3.71203H8.61879L8.12155 2.39335L7.62431 3.71203H6.1326L7.29282 4.70104L7.12708 6.18456ZM3.9779 7.00873L3.48067 8.32742H1.98895L3.14917 9.31642L2.65194 10.7999L3.81216 9.97577L4.97238 10.7999L4.64089 9.31642L5.80111 8.32742H4.3094L3.9779 7.00873ZM1.98895 16.4043L3.14917 17.2285L2.65194 15.9098L3.81216 14.9208H2.32044L1.82321 13.6021L1.49172 14.9208H0L1.16022 15.9098L0.662986 17.3933L1.98895 16.4043ZM3.81216 21.3494L3.31492 20.0307L2.81768 21.3494H1.32597L2.48619 22.3384L1.98895 23.8219L3.14917 22.9977L4.3094 23.8219L3.81216 22.3384L4.97238 21.3494H3.81216ZM9.11602 26.2944L8.61879 24.9758L8.12155 26.2944H6.62983L7.79006 27.1186L7.29282 28.6021L8.45304 27.778L9.61327 28.6021L9.11602 27.1186L10.2763 26.1296L9.11602 26.2944Z"
+                                            fill="#505153"/>
+                                        <path
+                                            d="M14.8828 10.5625C14.6016 10.5625 14.3177 10.6068 14.0312 10.6953C13.7448 10.7839 13.4818 10.9167 13.2422 11.0938C13.0026 11.2656 12.7969 11.4818 12.625 11.7422C12.4531 11.9974 12.3411 12.2943 12.2891 12.6328L11.1562 11.6875C11.2083 11.3438 11.3438 11.0417 11.5625 10.7812C11.7865 10.5208 12.0625 10.3047 12.3906 10.1328C12.724 9.96094 13.0938 9.83073 13.5 9.74219C13.9115 9.65365 14.3307 9.60938 14.7578 9.60938C15.3307 9.60938 15.8385 9.68229 16.2812 9.82812C16.7292 9.97396 17.1042 10.1797 17.4062 10.4453C17.7135 10.7109 17.9453 11.0312 18.1016 11.4062C18.2578 11.776 18.3359 12.1901 18.3359 12.6484C18.3359 12.9661 18.2969 13.276 18.2188 13.5781C18.1406 13.8802 18.013 14.1927 17.8359 14.5156C17.6589 14.8333 17.4271 15.1719 17.1406 15.5312C16.8542 15.8906 16.5 16.2865 16.0781 16.7188C15.6615 17.1458 15.1719 17.6198 14.6094 18.1406C14.0469 18.6562 13.4036 19.2344 12.6797 19.875H15.7812C15.9635 19.875 16.1641 19.862 16.3828 19.8359C16.6016 19.8099 16.8203 19.7474 17.0391 19.6484C17.263 19.5443 17.4766 19.3906 17.6797 19.1875C17.888 18.9792 18.0677 18.6979 18.2188 18.3438C18.3229 18.3438 18.4167 18.3594 18.5 18.3906C18.5833 18.4167 18.6536 18.4297 18.7109 18.4297C18.7109 18.8724 18.7031 19.2865 18.6875 19.6719C18.6771 20.0573 18.651 20.4297 18.6094 20.7891C18.4583 20.8359 18.2943 20.875 18.1172 20.9062C17.9453 20.9323 17.7422 20.9531 17.5078 20.9688C17.2734 20.9792 16.9974 20.987 16.6797 20.9922C16.3672 20.9974 15.9974 21 15.5703 21H11.6484C11.4193 21 11.2526 20.9688 11.1484 20.9062C11.0495 20.8438 10.974 20.7448 10.9219 20.6094C10.9219 20.5208 10.9323 20.4219 10.9531 20.3125C10.974 20.2031 11 20.0833 11.0312 19.9531C11.9115 19.0833 12.7057 18.2839 13.4141 17.5547C14.1224 16.8203 14.763 16.1276 15.3359 15.4766C15.6224 15.1484 15.8542 14.849 16.0312 14.5781C16.2083 14.3021 16.3464 14.0469 16.4453 13.8125C16.5443 13.5781 16.6094 13.3594 16.6406 13.1562C16.6771 12.9531 16.6953 12.7578 16.6953 12.5703C16.6953 11.8932 16.5417 11.3906 16.2344 11.0625C15.9323 10.7292 15.4818 10.5625 14.8828 10.5625Z"
+                                            fill="#505153"/>
+                                    </svg>
+                                    <span class="ml-2">This is just an example of text content</span>
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                    ad minim veniam .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h4 class="d-flex flex-row align-items-center card-title">
+                                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                                        <path
+                                            d="M15.0829 0.744995L14.5856 2.06368H13.0939L14.2541 2.88785L13.7569 4.37137L14.9171 3.54719L16.0774 4.37137L15.5801 2.88785L16.7403 2.06368H15.2486L15.0829 0.744995ZM21.7127 2.55818L21.2155 3.87687H19.7238L20.884 4.86587L20.3867 6.34939L21.547 5.52522L22.7072 6.34939L22.2099 4.86587L23.3702 3.87687H21.8785L21.7127 2.55818ZM24.8619 10.6351L26.0221 9.81093L27.1823 10.6351L26.6851 9.31642L27.8453 8.49225H26.3536L25.8564 7.17357L25.3591 8.49225H23.8674L25.0276 9.48126L24.8619 10.6351ZM30 14.9208H28.5083L28.0111 13.6021L27.5138 14.9208H26.0221L27.1823 15.9098L26.6851 17.3933L27.8453 16.5692L29.0055 17.3933L28.8398 15.9098L30 14.9208ZM27.0166 21.3494L26.5193 20.0307L26.0221 21.3494H24.5304L25.6906 22.3384L25.1934 23.8219L26.3536 22.9977L27.5138 23.8219L27.0166 22.3384L28.1768 21.3494H27.0166ZM21.7127 26.2944L21.2155 24.9758L20.7182 26.2944H19.2265L20.3867 27.2835L19.8895 28.767L21.0497 27.9428L22.2099 28.767L21.7127 27.2835L22.8729 26.4593L21.7127 26.2944ZM15.4144 28.2725L14.9171 26.9538L14.4199 28.2725H12.9282L14.0884 29.2615L13.5912 30.745L14.7514 29.9208L15.9116 30.745L15.7459 29.0966L16.9061 28.1076L15.4144 28.2725ZM7.12708 6.18456L8.28729 5.36038L9.44752 6.18456L8.95028 4.70104L10.1105 3.71203H8.61879L8.12155 2.39335L7.62431 3.71203H6.1326L7.29282 4.70104L7.12708 6.18456ZM3.9779 7.00873L3.48067 8.32742H1.98895L3.14917 9.31642L2.65194 10.7999L3.81216 9.97577L4.97238 10.7999L4.64089 9.31642L5.80111 8.32742H4.3094L3.9779 7.00873ZM1.98895 16.4043L3.14917 17.2285L2.65194 15.9098L3.81216 14.9208H2.32044L1.82321 13.6021L1.49172 14.9208H0L1.16022 15.9098L0.662986 17.3933L1.98895 16.4043ZM3.81216 21.3494L3.31492 20.0307L2.81768 21.3494H1.32597L2.48619 22.3384L1.98895 23.8219L3.14917 22.9977L4.3094 23.8219L3.81216 22.3384L4.97238 21.3494H3.81216ZM9.11602 26.2944L8.61879 24.9758L8.12155 26.2944H6.62983L7.79006 27.1186L7.29282 28.6021L8.45304 27.778L9.61327 28.6021L9.11602 27.1186L10.2763 26.1296L9.11602 26.2944Z"
+                                            fill="#505153"/>
+                                        <path
+                                            d="M16.8438 12.4297C16.8438 12.1172 16.7891 11.8438 16.6797 11.6094C16.5703 11.375 16.4219 11.1823 16.2344 11.0312C16.0521 10.875 15.8411 10.7578 15.6016 10.6797C15.362 10.6016 15.112 10.5625 14.8516 10.5625C14.5807 10.5625 14.3073 10.6068 14.0312 10.6953C13.7552 10.7786 13.5026 10.9062 13.2734 11.0781C13.0443 11.2448 12.8464 11.4531 12.6797 11.7031C12.513 11.9531 12.4036 12.2396 12.3516 12.5625L11.2969 11.6953C11.349 11.3516 11.4818 11.0495 11.6953 10.7891C11.9089 10.5286 12.1719 10.3125 12.4844 10.1406C12.8021 9.96875 13.1562 9.83854 13.5469 9.75C13.9375 9.66146 14.3359 9.61719 14.7422 9.61719C15.1901 9.61719 15.6302 9.66406 16.0625 9.75781C16.4948 9.84635 16.8802 10 17.2188 10.2188C17.5625 10.4323 17.8385 10.7214 18.0469 11.0859C18.2552 11.4453 18.3594 11.8984 18.3594 12.4453C18.3594 12.7214 18.2995 13 18.1797 13.2812C18.0651 13.5573 17.8906 13.8177 17.6562 14.0625C17.4271 14.3021 17.1406 14.5182 16.7969 14.7109C16.4531 14.9036 16.0521 15.0521 15.5938 15.1562C16.6354 15.2917 17.4219 15.5964 17.9531 16.0703C18.4896 16.5391 18.7578 17.1979 18.7578 18.0469C18.7578 18.5469 18.6667 18.9974 18.4844 19.3984C18.3021 19.7995 18.0417 20.1406 17.7031 20.4219C17.3698 20.6979 16.9661 20.9115 16.4922 21.0625C16.0234 21.2135 15.5 21.2891 14.9219 21.2891C14.4792 21.2891 14.0521 21.2448 13.6406 21.1562C13.2344 21.0729 12.8672 20.9583 12.5391 20.8125C12.2109 20.6667 11.9349 20.5 11.7109 20.3125C11.487 20.1198 11.3359 19.9167 11.2578 19.7031C11.2734 19.5833 11.2891 19.4635 11.3047 19.3438C11.3203 19.224 11.3385 19.0964 11.3594 18.9609C11.3802 18.8203 11.401 18.6693 11.4219 18.5078C11.4479 18.3411 11.4818 18.151 11.5234 17.9375L12.3828 18.0859C12.3828 18.5182 12.4531 18.8776 12.5938 19.1641C12.7396 19.4505 12.9271 19.6797 13.1562 19.8516C13.3906 20.0234 13.6536 20.1458 13.9453 20.2188C14.237 20.2865 14.5286 20.3203 14.8203 20.3203C15.1901 20.3203 15.5208 20.2604 15.8125 20.1406C16.1042 20.0156 16.3516 19.849 16.5547 19.6406C16.7578 19.4271 16.9115 19.1771 17.0156 18.8906C17.125 18.6042 17.1797 18.2943 17.1797 17.9609C17.1797 17.5703 17.1016 17.2344 16.9453 16.9531C16.7943 16.6719 16.5729 16.4427 16.2812 16.2656C15.9948 16.0885 15.6432 15.9583 15.2266 15.875C14.8151 15.7917 14.349 15.75 13.8281 15.75H13.5078V15.2734V14.8203H14.0234C14.2839 14.8203 14.5755 14.776 14.8984 14.6875C15.2266 14.5938 15.5339 14.4505 15.8203 14.2578C16.112 14.0599 16.3542 13.8125 16.5469 13.5156C16.7448 13.2135 16.8438 12.8516 16.8438 12.4297Z"
+                                            fill="#505153"/>
+                                    </svg>
+                                    <span class="ml-2">This is just an example of text content</span>
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                    ad minim veniam .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h4 class="d-flex flex-row align-items-center card-title">
+                                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                                        <path
+                                            d="M15.0829 0.744995L14.5856 2.06368H13.0939L14.2541 2.88785L13.7569 4.37137L14.9171 3.54719L16.0774 4.37137L15.5801 2.88785L16.7403 2.06368H15.2486L15.0829 0.744995ZM21.7127 2.55818L21.2155 3.87687H19.7238L20.884 4.86587L20.3867 6.34939L21.547 5.52522L22.7072 6.34939L22.2099 4.86587L23.3702 3.87687H21.8785L21.7127 2.55818ZM24.8619 10.6351L26.0221 9.81093L27.1823 10.6351L26.6851 9.31642L27.8453 8.49225H26.3536L25.8564 7.17357L25.3591 8.49225H23.8674L25.0276 9.48126L24.8619 10.6351ZM30 14.9208H28.5083L28.0111 13.6021L27.5138 14.9208H26.0221L27.1823 15.9098L26.6851 17.3933L27.8453 16.5692L29.0055 17.3933L28.8398 15.9098L30 14.9208ZM27.0166 21.3494L26.5193 20.0307L26.0221 21.3494H24.5304L25.6906 22.3384L25.1934 23.8219L26.3536 22.9977L27.5138 23.8219L27.0166 22.3384L28.1768 21.3494H27.0166ZM21.7127 26.2944L21.2155 24.9758L20.7182 26.2944H19.2265L20.3867 27.2835L19.8895 28.767L21.0497 27.9428L22.2099 28.767L21.7127 27.2835L22.8729 26.4593L21.7127 26.2944ZM15.4144 28.2725L14.9171 26.9538L14.4199 28.2725H12.9282L14.0884 29.2615L13.5912 30.745L14.7514 29.9208L15.9116 30.745L15.7459 29.0966L16.9061 28.1076L15.4144 28.2725ZM7.12708 6.18456L8.28729 5.36038L9.44752 6.18456L8.95028 4.70104L10.1105 3.71203H8.61879L8.12155 2.39335L7.62431 3.71203H6.1326L7.29282 4.70104L7.12708 6.18456ZM3.9779 7.00873L3.48067 8.32742H1.98895L3.14917 9.31642L2.65194 10.7999L3.81216 9.97577L4.97238 10.7999L4.64089 9.31642L5.80111 8.32742H4.3094L3.9779 7.00873ZM1.98895 16.4043L3.14917 17.2285L2.65194 15.9098L3.81216 14.9208H2.32044L1.82321 13.6021L1.49172 14.9208H0L1.16022 15.9098L0.662986 17.3933L1.98895 16.4043ZM3.81216 21.3494L3.31492 20.0307L2.81768 21.3494H1.32597L2.48619 22.3384L1.98895 23.8219L3.14917 22.9977L4.3094 23.8219L3.81216 22.3384L4.97238 21.3494H3.81216ZM9.11602 26.2944L8.61879 24.9758L8.12155 26.2944H6.62983L7.79006 27.1186L7.29282 28.6021L8.45304 27.778L9.61327 28.6021L9.11602 27.1186L10.2763 26.1296L9.11602 26.2944Z"
+                                            fill="#505153"/>
+                                        <path
+                                            d="M17.3047 19.0469C17.3047 19.2656 17.3125 19.4531 17.3281 19.6094C17.3438 19.7604 17.3724 19.8958 17.4141 20.0156C17.5339 20.0469 17.6589 20.0677 17.7891 20.0781C17.9245 20.0833 18.0677 20.0859 18.2188 20.0859H18.9219V21.1484C18.5 21.0911 18.0964 21.0521 17.7109 21.0312C17.3307 21.0104 16.9609 21 16.6016 21C16.1797 21 15.7682 21.013 15.3672 21.0391C14.9661 21.0651 14.5547 21.1016 14.1328 21.1484V20.0859H14.8281C14.9792 20.0859 15.1224 20.0833 15.2578 20.0781C15.3932 20.0729 15.5182 20.0521 15.6328 20.0156C15.7161 19.7865 15.7578 19.4714 15.7578 19.0703V17.9922H10.8594C10.651 17.8307 10.5469 17.6042 10.5469 17.3125C10.5677 17.2396 10.599 17.1719 10.6406 17.1094C10.6823 17.0417 10.7292 16.9714 10.7812 16.8984C11.6094 15.7057 12.3203 14.6875 12.9141 13.8438C13.5078 13 14.0052 12.2969 14.4062 11.7344C14.8125 11.1719 15.1328 10.737 15.3672 10.4297C15.6016 10.1172 15.776 9.89844 15.8906 9.77344H16.5781C16.7344 9.77344 16.8594 9.78385 16.9531 9.80469C17.0521 9.82031 17.125 9.85156 17.1719 9.89844C17.224 9.9401 17.2578 10 17.2734 10.0781C17.2943 10.1562 17.3047 10.2552 17.3047 10.375V17H19.5V17.4219C19.5 17.5573 19.487 17.6641 19.4609 17.7422C19.4401 17.8203 19.4036 17.8776 19.3516 17.9141C19.3047 17.9505 19.2396 17.974 19.1562 17.9844C19.0781 17.9896 18.9844 17.9922 18.875 17.9922H17.3047V19.0469ZM15.7578 17V11.6719L12.1797 16.75L12.0391 17H15.7578Z"
+                                            fill="#505153"/>
+                                    </svg>
+                                    <span class="ml-2">This is just an example of text content</span>
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                    ad minim veniam .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_ep_dg_comm_carousel" name="Carousel">
+        <div id="custCarousel" class="custCarousel carousel slide" data-ride="carousel">
+
+            <!-- Thumbnails -->
+            <ol class="carousel-indicators list-inline">
+                <li class="list-inline-item active">
+                    <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel">
+                        <img src="/ep_dg_website/static/src/img/pic00.jpg" class="img-fluid"/></a>
+                </li>
+                <li class="list-inline-item">
+                    <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
+                        <img src="/ep_dg_website/static/src/img/pic01.jpg" class="img-fluid"/>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
+                        <img src="/ep_dg_website/static/src/img/pic02.jpg" class="img-fluid"/>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a id="carousel-selector-2" data-slide-to="3" data-target="#custCarousel">
+                        <img src="/ep_dg_website/static/src/img/pic03.jpg" class="img-fluid"/>
+                    </a>
+                </li>
+            </ol>
+
+            <!-- slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/ep_dg_website/static/src/img/pic00.jpg" alt="Hills"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>With together.eu I managed to reach great goals, make a difference and have amazing experiences.</h4>
+                        <a href="#" class="btn btn-primary events-detail-btn" role="button">Discover the full story</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/ep_dg_website/static/src/img/pic01.jpg" alt="Hills"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>With together.eu I managed to reach great goals, make a difference and have amazing experiences.</h4>
+                        <a href="#" class="btn btn-primary events-detail-btn" role="button">Discover the full story</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/ep_dg_website/static/src/img/pic02.jpg" alt="Hills"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>With together.eu I managed to reach great goals, make a difference and have amazing experiences.</h4>
+                        <a href="#" class="btn btn-primary events-detail-btn" role="button">Discover the full story</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/ep_dg_website/static/src/img/pic03.jpg" alt="Hills"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>With together.eu I managed to r<div id="custCarousel" class="carousel slide" data-ride="carousel">
+
+                                <!-- Thumbnails -->
+                                <ol class="carousel-indicators list-inline">
+                                    <li class="list-inline-item active">
+                                        <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel">
+                                            <img src="/ep_dg_website/static/src/img/pic00.jpg" class="img-fluid"/></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
+                                                <img src="/ep_dg_website/static/src/img/pic01.jpg" class="img-fluid"/>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
+                                                <img src="/ep_dg_website/static/src/img/pic02.jpg" class="img-fluid"/>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a id="carousel-selector-2" data-slide-to="3" data-target="#custCarousel">
+                                                <img src="/ep_dg_website/static/src/img/pic03.jpg" class="img-fluid"/>
+                                            </a>
+                                        </li>
+                                    </ol>
+
+                                    <!-- slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="/ep_dg_website/static/src/img/pic00.jpg" alt="Hills"/>
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>With together.eu I managed to reach great goals, make a difference and have amazing experiences.</h4>
+                                                <a href="#" class="btn btn-primary events-detail-btn" role="button">Discover the full story</a>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/ep_dg_website/static/src/img/pic01.jpg" alt="Hills"/>
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>With together.eu I managed to reach great goals, make a difference and have amazing experiences.</h4>
+                                                <a href="#" class="btn btn-primary events-detail-btn" role="button">Discover the full story</a>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/ep_dg_website/static/src/img/pic02.jpg" alt="Hills"/>
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>With together.eu I managed to reach great goals, make a difference and have amazing experiences.</h4>
+                                                <a href="#" class="btn btn-primary events-detail-btn" role="button">Discover the full story</a>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/ep_dg_website/static/src/img/pic03.jpg" alt="Hills"/>
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>With together.eu I managed to reach great goals, make a difference and have amazing experiences.</h4>
+                                                <a href="#" class="btn btn-primary events-detail-btn" role="button">Discover the full story</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Left right -->
+                                    <a class="carousel-control-prev" href="#custCarousel" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#custCarousel" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    </a>
+
+                                </div>each great goals, make a difference and have amazing experiences.</h4>
+                            <a href="#" class="btn btn-primary events-detail-btn" role="button">Discover the full story</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left right -->
+                <a class="carousel-control-prev" href="#custCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#custCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+
+            </div>
+
+        </template>
+
+        <template id="ep_dg_comm_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']" position="after">
+                <div id="snippet_ep_dg_comm" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-headphones"/>
+                        Ep Dg Comm
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="ep_dg_website.s_4_blocks" t-thumbnail="/ep_dg_website/static/src/img/snippets/s_3column_menu.png"/>
+                        <t t-snippet="ep_dg_website.snippet_ep_dg_comm_carousel" t-thumbnail="/ep_dg_website/static/src/img/snippets/s_3column_menu.png"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </odoo>

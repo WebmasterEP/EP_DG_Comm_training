@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="snippets_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+        <div data-selector=".ep-dg-4-blocks">
+            <we-collapse-area>
+                <we-toggler><i class="fa fa-fw fa-align-left"/>Title Colors</we-toggler>
+                <we-collapse>
+                    <we-button data-select-class="red">Red</we-button>
+                    <we-button data-select-class="blue">Blue</we-button>
+                    <we-button data-select-class="yellow">Yellow</we-button>
+                </we-collapse>
+            </we-collapse-area>
+        </div>
+    </xpath>
+    </template>
+
+</odoo>
